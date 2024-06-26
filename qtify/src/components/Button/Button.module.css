@@ -1,0 +1,17 @@
+.button {
+    /* height: var(--button-height); */
+    background-color: var(--color-black);
+    color: var(--color-primary);
+    font-size: 18px;
+    line-height: 21.6px;
+    letter-spacing: 0.25px;
+    align-items: center;
+    font-weight: 700;
+    border-radius: 12px;
+    padding: 10px 17px 10px 17px;
+    gap: 10px;
+  }
+
+  .button:active {
+    background-color: var(--color-white);
+  }
