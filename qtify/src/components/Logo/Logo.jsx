@@ -4,7 +4,7 @@ import styles from "./Logo.module.css"
 
 function Logo() {
   return (
-    <div>
+    <div className={styles.logoContainer}>
         <img className={styles.logo} src={LogoImage} alt='logo' width={64}/>
     </div>
   )
