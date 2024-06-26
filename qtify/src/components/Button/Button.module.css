@@ -12,12 +12,13 @@
     gap: 10px;
     margin: 10px;
     font-family: 'Poppins', sans-serif;
+    cursor: pointer;
   }
 
   .button:active {
     background-color: var(--color-white);
   }
 
-  .button:hover{
+  /* .button:hover{
     cursor: pointer;
-  }
+  } */
