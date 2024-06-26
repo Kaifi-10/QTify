@@ -9,7 +9,7 @@ function Search() {
         <input
           className={styles.searchInput}
           type='text'
-          placeholder='Search an album of your choice'
+          placeholder='Search a song of your choice'
         />
         <button className={styles.searchButton}>
           <SearchIcon className={styles.searchIcon} />
