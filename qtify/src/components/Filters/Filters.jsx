@@ -6,6 +6,7 @@ import styles from './Filters.module.css';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
+  console.log("props", props);
   return (
     <div
       role="tabpanel"
@@ -25,7 +26,7 @@ function TabPanel(props) {
   );
 }
 
-const Filters = ({ filters, selectedFilterIndex, setSelectedFilterIndex }) => {
+const Filters = ({ filters=[], selectedFilterIndex, setSelectedFilterIndex }) => {
   const handleChange = (event, newValue) => {
     setSelectedFilterIndex(newValue);
   };
